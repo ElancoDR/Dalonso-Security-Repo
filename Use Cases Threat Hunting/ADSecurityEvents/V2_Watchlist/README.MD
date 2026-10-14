@@ -1,6 +1,4 @@
-# AD Security Events — Custom Detections Package
-
-Stop Active Directory Attacks: Advanced Monitoring with Microsoft Sentinel https://youtu.be/zYLU93U22Ew
+﻿# AD Security Events — Custom Detections Package
 
 > **Workspace:** `LAWSentinel`
 > **Created:** March 23, 2026
@@ -10,7 +8,7 @@ Custom Microsoft Sentinel analytic rules and hunting queries covering the full *
 
 All rules are designed **not to duplicate** confirmed Microsoft Sentinel built-in detections (brute force, password spray, new account in admin group, explicit credential use, multiple failed logons) and are grounded in the live `SecurityEvent` table schema.
 
-> **Companion repository:** [M365OfficeActivity](../M365OfficeActivity) — Microsoft 365 data-plane detections using `OfficeActivity`, `SigninLogs`, and `ThreatIntelIndicators`. Together the two repositories cover the full on-premises AD + Microsoft 365 + Azure identity attack surface.
+> **Companion repository:** [M365OfficeActivity](../M365OfficeActivity) — Microsoft 365 data-plane detections using `OfficeActivity`, `SigninLogs`, and `ThreatIntelligenceIndicator`. Together the two repositories cover the full on-premises AD + Microsoft 365 + Azure identity attack surface.
 
 ---
 
